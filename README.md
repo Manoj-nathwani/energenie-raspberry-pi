@@ -3,7 +3,7 @@
 
 # Requirments
 - [energenie sockets](https://energenie4u.co.uk/catalogue/product/MIHO002)
-- [energenie Rasberry Pi sheield](https://energenie4u.co.uk/catalogue/product/ENER314-IR)
+- [energenie Rasberry Pi shield](https://energenie4u.co.uk/catalogue/product/ENER314-IR)
 - Rasberry Pi with `RPi` installed
 
 # Example
