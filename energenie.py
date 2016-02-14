@@ -4,7 +4,7 @@ import sys
 
 # The GPIO pins for the Energenie module
 BIT1 = 11
-BIT2 = 15git
+BIT2 = 15
 BIT3 = 16
 BIT4 = 13
 
