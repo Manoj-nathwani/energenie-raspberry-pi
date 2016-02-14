@@ -7,6 +7,7 @@
 - Rasberry Pi with `RPi` installed
 
 # Example
+To turn lights 1 and 3 on and 2 off:
 ```
 $ python energenie.py 1=on 2=off 3=on
 ```
