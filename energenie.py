@@ -1,5 +1,6 @@
 import RPi.GPIO as GPIO
 from time import sleep
+import sys
 
 # The GPIO pins for the Energenie module
 BIT1 = 11
