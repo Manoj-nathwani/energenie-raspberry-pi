@@ -8,5 +8,5 @@
 
 # Example
 ```
-$ python energenie 1=on 2=off 3=on
+$ python energenie.py 1=on 2=off 3=on
 ```
