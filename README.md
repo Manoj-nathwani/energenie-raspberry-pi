@@ -1,6 +1,6 @@
 # Energenie raspberry pi
-- Forked from [energenie-demo](https://github.com/MiniGirlGeek/energenie-demo)
-- Uses arguments to turn [energenie](https://energenie4u.co.uk) sockets on/off
+Forked from [energenie-demo](https://github.com/MiniGirlGeek/energenie-demo)
+Python script with arguments to turn [energenie](https://energenie4u.co.uk) sockets on/off
 
 # Requirments
 - [energenie sockets](https://energenie4u.co.uk/catalogue/product/MIHO002)
