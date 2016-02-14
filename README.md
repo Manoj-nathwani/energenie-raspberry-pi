@@ -14,7 +14,7 @@ $ python energenie.py 1=on 2=off 3=on
 ```
 
 # Example use
-I'm using this script to automatically turn on an LED strip above my window to simulate daylight during dark winter mornings... yay London 😒
+I'm using this script to automatically turn on an LED strip above my window to simulate daylight during dark winter mornings... yay London 🎉
 
 Done by adding the following lines to the bottom of my [crontab](https://www.raspberrypi.org/documentation/linux/usage/cron.md) file:
 ```
