@@ -18,6 +18,10 @@ I'm using this script to automatically turn on an LED strip above my window to s
 
 Done by adding the following lines to the bottom of my [crontab](https://www.raspberrypi.org/documentation/linux/usage/cron.md) file:
 ```
-45 7 * * * python energenie-raspberry-pi/energenie.py 1=on
-30 8 * * * python energenie-raspberry-pi/energenie.py 1=off
+# turn led strip on/off
+30 7 * * 1-5 python /home/pi/energenie-raspberry-pi/energenie.py 1=on
+30 8 * * 1-5 python /home/pi/energenie-raspberry-pi/energenie.py 1=off
+
+# play morning alarm (Edvard Grieg - Morning Mood)
+45 7 * * 1-5 omxplayer /home/pi/Downloads/morning.mp3
 ```
