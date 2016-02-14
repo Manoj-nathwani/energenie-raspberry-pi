@@ -4,7 +4,7 @@ import sys
 
 # The GPIO pins for the Energenie module
 BIT1 = 11
-BIT2 = 15
+BIT2 = 15git
 BIT3 = 16
 BIT4 = 13
 
@@ -62,6 +62,6 @@ if len(sys.argv) > 1:
         socket = int(argument.split("=")[0])
         status = argument.split("=")[1]
         if status == "on":
-            print "switch_on " + str(socket)
+            switch_on(socket)
         else:
-            print "switch_off " + str(socket)
+            switch_off(socket)
