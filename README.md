@@ -1,5 +1,5 @@
-# Energenie raspberry pi
 Forked from [energenie-demo](https://github.com/MiniGirlGeek/energenie-demo)
+
 Python script with arguments to turn [energenie](https://energenie4u.co.uk) sockets on/off
 
 # Requirments
