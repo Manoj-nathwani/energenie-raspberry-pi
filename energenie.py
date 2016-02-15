@@ -56,7 +56,7 @@ def switch_off(socket):
     change_plug_state(socket, OFF)
 
 # running with arguments
-# example: $ python energenie 1=on 2=off 3=on
+# example: $ python energenie.py 1=on 2=off 3=on
 if len(sys.argv) > 1:
     for argument in sys.argv[1:]:
         socket = int(argument.split("=")[0])
