@@ -21,7 +21,4 @@ Done by adding the following lines to the bottom of my [crontab](https://www.ras
 # turn led strip on/off
 30 7 * * 1-5 python /home/pi/energenie-raspberry-pi/energenie.py 1=on
 30 8 * * 1-5 python /home/pi/energenie-raspberry-pi/energenie.py 1=off
-
-# play morning alarm (Edvard Grieg - Morning Mood)
-45 7 * * 1-5 omxplayer /home/pi/Downloads/morning.mp3
 ```
